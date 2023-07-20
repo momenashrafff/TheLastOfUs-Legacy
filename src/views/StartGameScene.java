@@ -449,26 +449,26 @@ public class StartGameScene extends Main {
         fadeTransition.setOnFinished(actionEvent -> {
             root.getChildren().addAll(label, imageZombieView);
 
-//            winScreen.getChildren().add(mainMenuButton);
-//            mainMenuButton.setTranslateX(-500);
-//            mainMenuButton.setTranslateY(300);
-//            mainMenuButton.setOnMouseClicked(event -> {
-//                Main main = new Main();
-//                main.start(primaryStage);
-//                primaryStage.setFullScreen(true);
-//            });
-//
-//            winScreen.getChildren().add(playAgainButton);
-//            playAgainButton.setTranslateY(300);
-//            playAgainButton.setOnMouseClicked(event -> {
-//                try {
-//                    ChampionSelect championSelect = new ChampionSelect(primaryStage);
-//                    primaryStage.setScene(championSelect.getScene());
-//                    primaryStage.setFullScreen(true);
-//                } catch (IOException e) {
-//                    throw new RuntimeException(e);
-//                }
-//            });
+            winScreen.getChildren().add(mainMenuButton);
+            mainMenuButton.setTranslateX(-500);
+            mainMenuButton.setTranslateY(300);
+            mainMenuButton.setOnMouseClicked(event -> {
+                Main main = new Main();
+                main.start(primaryStage);
+                primaryStage.setFullScreen(true);
+            });
+
+            winScreen.getChildren().add(playAgainButton);
+            playAgainButton.setTranslateY(300);
+            playAgainButton.setOnMouseClicked(event -> {
+                try {
+                    ChampionSelect championSelect = new ChampionSelect(primaryStage);
+                    primaryStage.setScene(championSelect.getScene());
+                    primaryStage.setFullScreen(true);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            });
 
             winScreen.getChildren().add(exitButton);
             exitButton.setTranslateX(500);
@@ -552,27 +552,27 @@ public class StartGameScene extends Main {
 
         fadeTransition.setOnFinished(actionEvent -> {
             root.getChildren().addAll(label, imageGifView);
-//
-//            loseScreen.getChildren().add(mainMenuButton);
-//            mainMenuButton.setTranslateX(-500);
-//            mainMenuButton.setTranslateY(300);
-//            mainMenuButton.setOnMouseClicked(event -> {
-//                Main main = new Main();
-//                main.start(primaryStage);
-//                primaryStage.setFullScreen(true);
-//            });
 
-//            loseScreen.getChildren().add(playAgainButton);
-//            playAgainButton.setTranslateY(300);
-//            playAgainButton.setOnMouseClicked(event -> {
-//                try {
-//                    ChampionSelect championSelect = new ChampionSelect(primaryStage);
-//                    primaryStage.setScene(championSelect.getScene());
-//                    primaryStage.setFullScreen(true);
-//                } catch (IOException e) {
-//                    throw new RuntimeException(e);
-//                }
-//            });
+            loseScreen.getChildren().add(mainMenuButton);
+            mainMenuButton.setTranslateX(-500);
+            mainMenuButton.setTranslateY(300);
+            mainMenuButton.setOnMouseClicked(event -> {
+                Main main = new Main();
+                main.start(primaryStage);
+                primaryStage.setFullScreen(true);
+            });
+
+            loseScreen.getChildren().add(playAgainButton);
+            playAgainButton.setTranslateY(300);
+            playAgainButton.setOnMouseClicked(event -> {
+                try {
+                    ChampionSelect championSelect = new ChampionSelect(primaryStage);
+                    primaryStage.setScene(championSelect.getScene());
+                    primaryStage.setFullScreen(true);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            });
 
             loseScreen.getChildren().add(exitButton);
             exitButton.setTranslateX(500);
