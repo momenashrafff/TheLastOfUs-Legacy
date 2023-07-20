@@ -62,10 +62,10 @@ The player wins only if they have successfully collected and used all vaccines a
 
 Here are some screenshots from the game:
 
-![Main Menu](screenshots/MainMenu.png)
-![Champion Selection](screenshots/ChampionSelection.png)
-![Game Play 1](screenshots/GamePlay1.png)
-![Game Play 2](screenshots/GamePlay2.png)
+![Main Menu](Screenshots/MainMenu.png)
+![Champion Selection](Screenshots/ChampionSelection.png)
+![Game Play 1](Screenshots/GamePlay1.png)
+![Game Play 2](Screenshots/GamePlay2.png)
 
 ## Project Information
 
