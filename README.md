@@ -58,6 +58,15 @@ The game ends when the player has collected and used all vaccines or when all he
 
 The player wins only if they have successfully collected and used all vaccines and have 5 or more heroes alive.
 
+## Gameplay Screenshots
+
+Here are some screenshots from the game:
+
+![Main Menu](screenshots/MainMenu.png)
+![Champion Selection](screenshots/ChampionSelection.png)
+![Game Play 1](screenshots/GamePlay1.png)
+![Game Play 2](screenshots/GamePlay2.png)
+
 ## Project Information
 
 This game was developed using JavaFX SDK 20.0.1.
